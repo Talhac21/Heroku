@@ -33,7 +33,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install --no-install-recomme
     python3 \
     python3-dev \
     python3-pip \
-    wkhtmltopdf
+
 RUN curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh && \
     bash nodesource_setup.sh && \
     apt-get install -y nodejs && \
